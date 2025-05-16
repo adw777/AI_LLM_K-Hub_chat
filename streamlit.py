@@ -11,7 +11,7 @@ if "messages" not in st.session_state:
 
 def query_api(user_input):
     """Send query to API and return response"""
-    url = "https://7daa9d488cc01689615f1ca6ebf7ed61.serveo.net/query"
+    url = "https://nwhb759mcs6f.share.zrok.io/query"
     
     try:
         response = requests.post(
