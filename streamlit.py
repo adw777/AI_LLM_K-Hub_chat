@@ -11,12 +11,12 @@ if "messages" not in st.session_state:
 
 def query_api(user_input):
     """Send query to API and return response"""
-    url = "https://nwhb759mcs6f.share.zrok.io/query"
+    url = "https://2rdwcinr43pd.share.zrok.io/query"
     
     try:
         response = requests.post(
             url,
-            json={"query": user_input, "limit": 10},
+            json={"query": user_input, "limit": 5},
             timeout=90
         )
         response.raise_for_status()
